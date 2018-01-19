@@ -1,0 +1,7 @@
+# Application specific files
+node_modules/
+npm-debug.log
+package.json
+
+## Directory-based project format:
+.idea
