@@ -1,0 +1,6 @@
+var numbers = str.replace(/./gi,replaceSymbol);
+
+
+function replaceSymbol(symbol) {
+    return symbolsMap[symbol.toUpperCase()] || symbol;
+}
