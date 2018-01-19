@@ -143,4 +143,27 @@ function splitByTwoChars (array) {
     return tmpArray;
 }
 
-console.log(splitByTwoChars(numbers));
+numbers = splitByTwoChars(numbers);
+
+console.log(numbers);
+console.log(numbers[1].length);
+
+let aa = '00';
+
+
+/*
+function addExtraElement (array){
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].length < array[i+1].length) {
+        array[i].push(00)}
+        else if (array[i].length > array[i+1].length) {
+        array[i+1].push(00)}
+        else
+    }
+}
+*/
+
+
+numbers[1].push(aa);
+
+console.log(numbers);
